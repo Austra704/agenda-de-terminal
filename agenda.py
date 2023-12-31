@@ -166,7 +166,7 @@ while True:
         excluir_contato(contato)
     elif opcao == "6":
         nome_do_arquivo = input("Digite o nome do arquivo a ser exportado: ")
-        exportar_contatos()
+        exportar_contatos(nome_do_arquivo)
     elif opcao == "7":
         nome_do_arquivo = input("Digite o nome do arquivo a ser importado: ")
         importar_contatos(nome_do_arquivo)
